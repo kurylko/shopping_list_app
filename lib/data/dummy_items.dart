@@ -3,7 +3,7 @@ import 'package:shopping_list_app/models/grocery_item.dart';
 import 'package:shopping_list_app/data/categories.dart';
 
 
-final groceryItem = [
+final groceryItems = [
   GroceryItem(
       id: '1',
       name: 'Carrot',
