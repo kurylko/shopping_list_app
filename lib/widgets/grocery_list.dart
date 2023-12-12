@@ -31,7 +31,7 @@ class _GroceryListState extends State<GroceryList> {
     });
   }
 
-  void _removeItem(GroceryItem) {
+  void _removeItem(GroceryItem item) {
     setState(() {
       _groceryItems.remove(item);
     });
